@@ -64,6 +64,10 @@ const ContactForm = () => {
                 <input type="email" name="email" placeholder="ejemplo@correo.com" required />
             </div>
             <div className="form-group">
+                <label>TELÉFONO DE CONTACTO</label>
+                <input type="tel" name="phone" placeholder="+51 987 654 321" required />
+            </div>
+            <div className="form-group">
                 <label>DETALLES DEL PROYECTO</label>
                 <textarea name="message" rows={4} placeholder="Describe brevemente tus requerimientos..." required></textarea>
             </div>
